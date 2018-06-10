@@ -14,9 +14,6 @@ class Input implements Runnable {
 		
 
 	}
-
-
-
 	public void run() {
 		while (true) {
 			try {
