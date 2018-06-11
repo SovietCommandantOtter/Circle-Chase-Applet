@@ -80,12 +80,12 @@ public class Game extends Applet implements Runnable, KeyListener {
 				out.writeInt(playery);
 				}catch(Exception e) {
 					System.out.println("Error Sending Coordinates");
-				}
+				}repaint();
 			}
 			
 			
 			try {
-				Thread.sleep(400);
+				Thread.sleep(100);
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
